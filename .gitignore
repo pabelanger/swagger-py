@@ -1,6 +1,7 @@
-*.egg-info/
-*.egg
+*.egg*
 *.pyc
 .coverage
+.tox/
+build/
 cover/
 dist/

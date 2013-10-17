@@ -1,0 +1,4 @@
+coverage
+flake8
+httpretty
+nose>=1.3

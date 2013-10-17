@@ -26,9 +26,6 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
     ],
-    setup_requires=["nose>=1.3", "tissue"],
-    tests_require=["coverage", "httpretty"],
-    install_requires=["requests", "websocket-client"],
     entry_points="""
     [console_scripts]
     swagger-codegen = swaggerpy.codegen:main
